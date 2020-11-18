@@ -42,7 +42,7 @@ CREATE TABLE pvuv_sink (
     'connector.url' = 'jdbc:mysql://localhost:3306/flink-test',
     'connector.table' = 'pvuv_sink',
     'connector.username' = 'root',
-    'connector.password' = '123456',
+    'connector.password' = 'root',
     'connector.write.flush.max-rows' = '1'
 );
 
